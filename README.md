@@ -22,7 +22,7 @@ The SegNet paper introduces a encoder similar to VGG16. But with an additional B
 1. Pull this repository.
 
 ```shell
-git clone 
+git clone https://github.com/verages/SegNet.git
 ```
 
 2. You need to install some dependency package.
@@ -36,7 +36,7 @@ pip installl -r requirements.txt
 4. Getting SegNet weights.
 
 ```shell
-wget 
+wget https://github.com/verages/SegNet/releases/download/v0.1/segnet_weights.h5
 ```
 
 5. Run **predict.py**, you'll see the result of SegNet.
